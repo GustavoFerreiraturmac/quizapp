@@ -208,7 +208,7 @@ main {
     height: 40px;
     background: var(--bg-span);
     border-radius: 5px;
-    color: var(--bg-span);
+    color: var(--secondary-text-color);
 
     display: flex;
     align-items: center;
