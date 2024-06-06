@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script src="./script.js" defer></script>
+    <script src="./script.js" type="module" defer></script>
     <title>Quiz App</title>
 </head>
 <body>
@@ -25,9 +25,9 @@
         <section class="boas_vindas">
             <h1>
                 Bem-vindo(a) ao <br>
-                <strong>Frontend Quiz!</strong> 
+                <strong>Frontend Quiz!</strong>
             </h1>
-
+             
             <p>Escolha um assunto para começar.</p>
         </section>
 
@@ -39,28 +39,27 @@
                 HTML
             </button>
 
-            <button>
+            <button class="botao_css">
                 <div>
                     <img src="./assets/images/icon-css.svg" alt="ícone do CSS">
                 </div>
                 CSS
-            </button class="botao_css">
+            </button>
 
-            <button>
+            <button class="botao_javascript">
                 <div>
                     <img src="./assets/images/icon-js.svg" alt="ícone do Javascript">
                 </div>
                 Javascript
-            </button class="botao_javascript">
+            </button>
 
-            <button>
+            <button class="botao_acessibilidade">
                 <div>
                     <img src="./assets/images/icon-accessibility.svg" alt="ícone do acessibilidade">
                 </div>
                 Acessibilidade
-            </button class="botao_acessibilidade">
+            </button>
         </section>
     </main>
-    <a href="./pages/quiz/quiz.html">Quuiz</a>
 </body>
 </html>
