@@ -154,4 +154,5 @@ async function iniciar() {
     montarPergunta()
     adicionarEventoInputs()
 }
+
 iniciar()
