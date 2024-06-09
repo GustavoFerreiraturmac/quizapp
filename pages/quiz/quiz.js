@@ -27,6 +27,7 @@ function alterarAssunto() {
     iconeImg.setAttribute("alt", `ícone de ${assunto}`)
     assuntoTitulo.innerText = assunto
 }
+
 async function buscarPerguntas() {
 
     const urlDados = "../../data.json"
