@@ -35,7 +35,7 @@ function inserirResultado() {
 
 
     sectionPontuacao.innerHTML = `
-        ${divAssunto.outerHTML}
+    ${divAssunto.outerHTML}
         <strong>${pontos}</strong>
         <p>de 10</p>
     `
@@ -48,4 +48,4 @@ function jogarNovamente () {
     window.location.href = "../../index.html"
 }
 
-inserirResultado()
+ inserirResultado()
